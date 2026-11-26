@@ -73,8 +73,9 @@
 /**
  * Item categories (sprite key prefix). The index is the level JSON colour number, so colour 3 = CATEGORIES[3].
  * Level JSON comes from the original game (colours 0..7); 8 and 9 are extra categories for custom levels.
+ * The bakery set and the objects set alternate, so any level (most use colours 1..5 or 1..6) mixes both.
  */
-const CATEGORIES = ['music', 'bread', 'cake', 'pastry', 'topping', 'baking', 'space', 'shoes', 'sea', 'tools']         ;
+const CATEGORIES = ['bread', 'music', 'cake', 'space', 'pastry', 'shoes', 'topping', 'sea', 'baking', 'tools']         ;
 
 const ITEMS_PER_CATEGORY = 5;
 
